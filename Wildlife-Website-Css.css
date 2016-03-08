@@ -2,10 +2,10 @@
 header{
 	text-align: center;
 	font-family: helvetica;
+	color: white;
 	background: url("http://workflow.arts.ac.uk/artefact/file/download.php?file=1045088&view=108608");
 	background-size: cover;
 	text-decoration: bold;
-
 }
 
 h1{
@@ -19,18 +19,45 @@ body {
 	background-color: #cce6ff;
 	}
 
-.Sky{
-	padding: 100px;
+.Sky_title {
+	float: left;
+	width: 200px;
+	z-index: 100;
+	position: absolute;
+	top: 400px;
+	left: 500px;
 }
 
-.Grass{
-	padding: 100px;
+.Sky_image {
+	float: left;
+	width: 100%;
 }
 
-.Soil{
-	padding: 100px;
+.Ground_title {
+	float: left;
+	width: 200px;
+	z-index: 100;
+	position: absolute;
+	top: 1000px;
+	left: 500px;
 }
 
+.Ground_image {
+	float: left;
+	width: 100%;
+}
 
+.Soil_title {
+	float: left;
+	width: 200px;
+	z-index: 100;
+	position: absolute;
+	top: 1500px;
+	left: 500px;
+}
 
+.Soil_image {
+	float: left;
+	width: 100%;
+}
 
