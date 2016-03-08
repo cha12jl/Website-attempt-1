@@ -1,10 +1,16 @@
 
-h1{
+header{
 	text-align: center;
 	font-family: helvetica;
+	font-color: white;
+	background: url("http://workflow.arts.ac.uk/artefact/file/download.php?file=1045088&view=108608");
+	background-size: cover;
+
+
 }
 
 body { 
+	font-family: helvetica;
 	background-color: #cce6ff;
 	}
 
