@@ -16,18 +16,22 @@ $(function() {
 
 	$( ".Ground_image" ).mouseenter(function() {
 		$( ".Ground_title" ).slideDown();
+		$( ".Ground_image" ).fadeTo("fast", 0.5);
 	});
 
 	$( ".Ground_image" ).mouseleave(function() {
 		$( ".Ground_title" ).slideUp();
+		$( ".Ground_image" ).fadeTo("fast", 1);
 	});
 
 	$( ".Soil_image" ).mouseenter(function() {
 		$( ".Soil_title" ).slideDown();
+		$( ".Soil_image" ).fadeTo("fast", 0.5);
 	});
 
 	$( ".Soil_image" ).mouseleave(function() {
 		$( ".Soil_title" ).slideUp();
+		$( ".Soil_image" ).fadeTo("fast", 1);
 	});
 
 

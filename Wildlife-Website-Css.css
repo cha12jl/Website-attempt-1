@@ -14,4 +14,45 @@ body {
 	background-color: #cce6ff;
 	}
 
+.Sky_title {
+	float: left;
+	width: 200px;
+	z-index: 100;
+	position: absolute;
+	top: 400px;
+	left: 500px;
+}
+
+.Sky_image {
+	float: left;
+	width: 100%;
+}
+
+.Ground_title {
+	float: left;
+	width: 200px;
+	z-index: 100;
+	position: absolute;
+	top: 1000px;
+	left: 500px;
+}
+
+.Ground_image {
+	float: left;
+	width: 100%;
+}
+
+.Soil_title {
+	float: left;
+	width: 200px;
+	z-index: 100;
+	position: absolute;
+	top: 1500px;
+	left: 500px;
+}
+
+.Soil_image {
+	float: left;
+	width: 100%;
+}
 
