@@ -1,5 +1,4 @@
-
-header{
+header {
 	text-align: center;
 	font-family: helvetica;
 	color: white;
@@ -12,6 +11,7 @@ header{
 body { 
 	font-family: helvetica;
 	background-color: #cce6ff;
+	text-align: center;
 	}
 
 .Sky_title {
@@ -20,8 +20,7 @@ body {
 	z-index: 100;
 	position: absolute;
 	top: 275px;
-	left: 400px;
-	color: white;
+	left: 550px;
 }
 
 .Sky_image {
@@ -35,8 +34,7 @@ body {
 	z-index: 100;
 	position: absolute;
 	top: 775px;
-	left: 400px;
-	color: white;
+	left: 550px;
 }
 
 .Ground_image {
@@ -50,8 +48,7 @@ body {
 	z-index: 100;
 	position: absolute;
 	top: 1250px;
-	left: 400px;
-	color: white;
+	left: 550px;
 }
 
 .Soil_image {

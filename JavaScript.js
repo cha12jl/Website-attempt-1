@@ -6,7 +6,7 @@ $(function() {
 
 	$( ".Sky_image" ).mouseenter(function() {
 		$( ".Sky_title" ).slideDown();
-		$( ".Sky_image" ).fadeTo("fast", 0.5);
+		$( ".Sky_image" ).fadeTo("fast", 0.3);
 	});
 
 	$( ".Sky_image" ).mouseleave(function() {
@@ -16,7 +16,7 @@ $(function() {
 
 	$( ".Ground_image" ).mouseenter(function() {
 		$( ".Ground_title" ).slideDown();
-		$( ".Ground_image" ).fadeTo("fast", 0.5);
+		$( ".Ground_image" ).fadeTo("fast", 0.3);
 	});
 
 	$( ".Ground_image" ).mouseleave(function() {
@@ -26,7 +26,7 @@ $(function() {
 
 	$( ".Soil_image" ).mouseenter(function() {
 		$( ".Soil_title" ).slideDown();
-		$( ".Soil_image" ).fadeTo("fast", 0.5);
+		$( ".Soil_image" ).fadeTo("fast", 0.3);
 	});
 
 	$( ".Soil_image" ).mouseleave(function() {
