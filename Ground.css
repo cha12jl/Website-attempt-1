@@ -1,5 +1,8 @@
 #Navbar ul {
 	list-style-type: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -18,6 +21,15 @@
 	text-decoration: none;
 }
 
-#Navbar li a:hover {
+#Navbar li a:hover:not(.active) {
 	background-color: #111;
+}
+
+#Navbar .active {
+	background-color: 3CB371;
+}
+
+body {
+	padding-top: 40px;
+	background-color: 3CB371;
 }
