@@ -21,6 +21,7 @@ body {
 	position: absolute;
 	top: 275px;
 	left: 400px;
+	color: white;
 }
 
 .Sky_image {
@@ -35,6 +36,7 @@ body {
 	position: absolute;
 	top: 775px;
 	left: 400px;
+	color: white;
 }
 
 .Ground_image {
@@ -49,6 +51,7 @@ body {
 	position: absolute;
 	top: 1250px;
 	left: 400px;
+	color: white;
 }
 
 .Soil_image {
