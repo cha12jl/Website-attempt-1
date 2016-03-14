@@ -33,12 +33,12 @@ header h1 {
 	text-decoration: none;
 }
 
-#Navbar li a:hover {
+#Navbar li a:hover:not(active) {
 	background-color: #111;
 }
 
-#Navbar li a.active {
-	background-color: red;
+#Navbar .active {
+	background-color: purple;
 }
 
 body { 
