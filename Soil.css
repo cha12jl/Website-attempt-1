@@ -32,4 +32,9 @@
 body {
 	padding-top: 40px;
 	background-color: CD853F;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
 }
